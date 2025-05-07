@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Michroma
+font link: https://fonts.google.com/specimen/Michroma
+font author: Vernon Adams
+font author site: http://sansoxygen.com/
+Slogan Font: Fanwood Text.otf
+
+icon designer: Sandhi Priyasmoro
+icon designer link: /Priyasa
+        
+
+fontColor: {"hex":"#19CEDA"}
+bgColor: {"hex":"#002855"}
+iconColor: {"hex":"#19CEDA"}
+sloganColor: {"hex":"#19CEDA"}
+      

@@ -1,0 +1,38 @@
+@media (max-width: 750px) {
+  .cover-logo img{
+    margin-top: 2rem;
+  }
+  .custom-svg img{
+    max-width: 270px;
+    margin-right: px;
+    top: -225px;
+  }
+  #services .service img {
+    max-width: 205px;
+    max-height: 1000px;
+    margin-bottom: 5px;
+  }
+  #services .service {
+    margin: 20px;
+}
+.container1 {
+  flex-direction: column;
+}
+.container1 nav ul{
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#hero{
+  padding-top: 100px;
+}
+}
+
+@media (min-width: 1000px) {
+  .cover-logo img{
+    margin-top: 2rem;
+  }
+
+
+}
