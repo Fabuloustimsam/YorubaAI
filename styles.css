@@ -381,6 +381,7 @@ footer .newsletter input[type="email"] {
     display: none;
     font-size: 28px;
     cursor: pointer;
+    color: #FFFFFF;
   }
   
   /* Mobile styles */
