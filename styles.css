@@ -374,3 +374,52 @@ footer .newsletter input[type="email"] {
     87% { background-image: url('../images/medium-shot-men-playing-music.jpg'); }
     87% { background-image: url('../images/bg.png'); }
 }
+
+
+/* Base styles */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 25px;
+    }
+  
+    nav#navbar {
+      display: none;
+      width: 100%;
+      background-color:  #002855;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      z-index: 999;
+    }
+  
+    nav#navbar ul {
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav#navbar li {
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    nav#navbar li a {
+      display: block;
+      padding: 15px 0;
+    }
+  
+    nav#navbar.active {
+      display: block;
+    }
+  }
+  

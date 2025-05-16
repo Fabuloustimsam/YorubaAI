@@ -40,3 +40,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     setInterval(changeWords, 2000); // Change words every 2 seconds (2000ms)
 });
+
+const toggle = document.getElementById("menu-toggle");
+const nav = document.getElementById("navbar");
+
+toggle.addEventListener("click", () => {
+  nav.classList.toggle("active");
+});
